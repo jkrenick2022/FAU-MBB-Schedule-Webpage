@@ -1,0 +1,24 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+    color: black;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #87CEEB, #F0E68C);
+}
+
+
+.App {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: space-evenly; /* Adjust as needed to control the spacing between cards */
+}
